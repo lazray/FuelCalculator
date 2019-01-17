@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et0"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/num" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/num1" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/num2" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="198dp"
+        android:layout_height="20pt"
+        android:text="Расход л/100 км" />
+
+    <Button
+        android:id="@+id/fuel"
+        android:layout_width="198dp"
+        android:layout_height="30pt"
+        android:text="Рассчитать"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/oil"
+        android:layout_width="wrap_content"
+        android:layout_height="30pt"
+        android:text="Замена масла"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/atf"
+        android:layout_width="198dp"
+        android:layout_height="78dp"
+        android:text="Замена дикстрона"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/antifreese"
+        android:layout_width="197dp"
+        android:layout_height="80dp"
+        android:text="Замена антифриза"
+        android:textSize="10pt" />
+</LinearLayout>
+
